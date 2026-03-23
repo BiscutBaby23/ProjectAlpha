@@ -3,158 +3,160 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Welcome</title>
+  <title>Anipals Adventure Club</title>
 
-  <!-- Basic reset & typography -->
   <style>
     * {
-      box-sizing: border-box;
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
     }
 
     body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: #f5f5f7;
-      color: #111827;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      background: #f7f9fc;
+      color: #1f2937;
       line-height: 1.6;
     }
 
     header {
-      background: #111827;
-      color: #f9fafb;
-      padding: 1.5rem 2rem;
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #ffffff;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+
+    header img {
+      max-width: 260px;
+      height: auto;
     }
 
     header h1 {
-      font-size: 1.8rem;
-      letter-spacing: 0.04em;
-    }
-
-    nav {
-      margin-top: 0.75rem;
-    }
-
-    nav a {
-      color: #e5e7eb;
-      text-decoration: none;
-      margin-right: 1.25rem;
-      font-size: 0.95rem;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
+      margin-top: 1rem;
+      font-size: 2rem;
+      font-weight: 700;
+      color: #1e3a8a;
+      letter-spacing: 0.5px;
     }
 
     main {
-      max-width: 960px;
+      max-width: 900px;
       margin: 2.5rem auto;
       padding: 0 1.5rem;
     }
 
     .hero {
       background: #ffffff;
-      border-radius: 0.75rem;
       padding: 2rem;
-      box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+      border-radius: 1rem;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.06);
       text-align: center;
     }
 
     .hero h2 {
-      font-size: 2rem;
+      font-size: 1.8rem;
       margin-bottom: 0.75rem;
+      color: #2563eb;
     }
 
     .hero p {
       color: #4b5563;
+      font-size: 1.05rem;
       margin-bottom: 1.5rem;
     }
 
-    .hero .btn {
+    .btn {
       display: inline-block;
       padding: 0.75rem 1.75rem;
+      background: #2563eb;
+      color: #ffffff;
       border-radius: 999px;
-      background: #111827;
-      color: #f9fafb;
       text-decoration: none;
-      font-weight: 500;
-      font-size: 0.95rem;
+      font-weight: 600;
+      font-size: 1rem;
     }
 
-    .hero .btn:hover {
-      background: #020617;
+    .btn:hover {
+      background: #1e40af;
     }
 
     .section {
-      margin-top: 2.5rem;
+      margin-top: 3rem;
     }
 
     .section h3 {
-      font-size: 1.3rem;
+      font-size: 1.4rem;
       margin-bottom: 0.75rem;
+      color: #1e3a8a;
     }
 
     .section p {
       color: #4b5563;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.75rem;
+      font-size: 1.05rem;
     }
 
     footer {
       text-align: center;
       padding: 2rem 1rem;
       color: #6b7280;
-      font-size: 0.85rem;
+      font-size: 0.9rem;
+      margin-top: 3rem;
     }
   </style>
 </head>
+
 <body>
+
   <header>
-    <h1>Brand Name</h1>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#services">Services</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <!-- Insert her logo here -->
+    <img src="YOUR-IMAGE-FILENAME.png" alt="Anipals Adventure Club Logo" />
+    <h1>Anipals Adventure Club</h1>
   </header>
 
   <main>
     <section class="hero">
-      <h2>Welcome to Our Website</h2>
+      <h2>Emergent Reading for Young Explorers</h2>
       <p>
-        A simple, clean starting point for your next project. Customize the text, colors, and layout
-        to match your brand.
+        Welcome to the Anipals Adventure Club — where early readers grow their confidence,
+        imagination, and love for learning through fun stories, friendly characters, and
+        nature‑themed adventures.
       </p>
-      <a href="#contact" class="btn">Get in Touch</a>
+      <a href="#learn-more" class="btn">Learn More</a>
     </section>
 
-    <section id="about" class="section">
-      <h3>About</h3>
+    <section id="learn-more" class="section">
+      <h3>What We Do</h3>
       <p>
-        Write a short, clear description about who you are, what you do, and who you serve.
-      </p>
-    </section>
-
-    <section id="services" class="section">
-      <h3>Services</h3>
-      <p>
-        List your main services or offerings here. Keep it simple and benefit-focused.
+        We create engaging, beginner‑friendly reading materials designed to help children
+        build foundational literacy skills. Our stories follow a team of lovable animal
+        friends as they explore the world, solve problems, and learn together.
       </p>
     </section>
 
-    <section id="contact" class="section">
+    <section class="section">
+      <h3>Why Emergent Reading Matters</h3>
+      <p>
+        Emergent reading is the first step in a child’s literacy journey. Through simple
+        vocabulary, repetition, and visual storytelling, young readers develop confidence
+        and curiosity — the building blocks of lifelong learning.
+      </p>
+    </section>
+
+    <section class="section">
       <h3>Contact</h3>
-      <p>Email: you@example.com</p>
-      <p>Social: @yourhandle</p>
+      <p>Email: yourname@example.com</p>
+      <p>Instagram: @yourhandle</p>
     </section>
   </main>
 
   <footer>
-    &copy; <span id="year"></span> Brand Name. All rights reserved.
+    &copy; <span id="year"></span> Anipals Adventure Club. All rights reserved.
   </footer>
 
   <script>
-    // Auto-update year
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
+
 </body>
 </html>
